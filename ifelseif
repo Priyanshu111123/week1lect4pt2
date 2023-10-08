@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a,b,c,d;
+  cout<<"Give Three integers as input";
+  cin>>a>>b>>c>>d;
+  if(a>b&&c>d)
+  {
+    cout<<"Haha";
+  }
+  else if(a>b&&c<d)
+  {
+    cout<<"Hehe";
+  }
+  else if(a<b&&c>d)
+  {
+    cout<<"Huhu";
+
+}
